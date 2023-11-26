@@ -1,0 +1,241 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #D8D5D5;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    padding: 0px; 
+    background-color: transparent;   
+    background-image:url(../img/Booking-Hotel/Hotel-header.jpg);
+    background-size: 100% auto;
+    background-position: right center;
+    background-repeat: no-repeat;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+}
+
+.button-back{
+    padding: 15px;
+}
+
+.button-back button{
+    width: 120px;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #255A65;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+}
+.button-back button:hover{
+    opacity: 50%;
+}
+
+.button-back a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.label-head{
+width: 440px;
+padding: 10px;
+border-radius: 5px 0 0 5px ;
+background-color: #255A65;
+color: #ffffff;
+font-family: 'Poppins', sans-serif;
+cursor: pointer;
+border: none;
+margin-top: 200px;
+opacity: 60%;
+margin-right: 0; /* Elemen akan mepet ke kanan sepenuhnya */
+/* font-size: 40px; */
+}
+
+.main-nav-link
+{
+    display: inline-block;
+    text-decoration: none;
+    color: #1D232E;
+    font-weight: 700;
+    height: 33rem;
+    font-size: 1rem;
+    transition: all 0.3s;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 40px;
+    margin-left: 50px;
+    
+}
+
+.main-nav-link:hover,
+.main-nav-link:active{
+    color: #e67e22;
+}
+
+.nav-cta:link,
+.nav-cta:visited{
+    color: #fff;
+    
+}
+
+.nav-cta:link,
+.nav-cta:visited:hover{
+    color: #e67e22;
+}
+
+.main-nav-list{
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+
+}
+
+
+.judul-hotel{
+    margin-top: -340px;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.container{
+    display: flex;
+    align-items: flex-start;
+    margin: 0 80px 0;
+    border: #255A65 solid 1px;
+    border-radius: 5px;
+    padding: 20px;
+    position: relative;
+    
+}
+.about-detail{
+    margin-top: -30px;
+}
+.about {
+    flex: 1; /* Menggunakan flex untuk memastikan elemen about mengambil sebagian besar ruang yang tersedia */
+    padding: 20px; 
+    margin-top: 30px; /* Sesuaikan nilai sesuai kebutuhan */
+}
+
+/* Untuk menyusun elemen-elemen di dalam elemen about */
+.sub-title {
+    margin-bottom: 10px; /* Memberikan margin bawah agar tidak terlalu rapat */
+}
+
+.Title-about{
+    font-size: 1.5rem;
+    margin-top: -18px;
+    color: #255A65;
+}
+.Title-content{
+    font-size: 1.2rem;
+    color: #255A65;
+} 
+.sub-title{
+    color: #e67e22;
+}
+.Title-2{
+    font-size: 1.2rem;
+    margin-top: 20px;
+    color: #255A65;
+}
+.content{
+    text-align: justify;
+    font-size: 15px;
+    margin-right: 100px;
+}
+
+.content-2 {
+    text-align: justify;
+    font-size: 12px;
+    margin-top: 50px;
+    margin-left: -340px; /* Sesuaikan nilai margin sesuai kebutuhan */
+    
+}
+.content-2 p{
+    font-size: 15px;
+}
+ol {
+    list-style-type: circle;
+}
+
+.content-2 li{
+    margin-left: 20px;
+}
+.image{
+    flex: 0 0 320px; 
+    /* position: fixed; */
+    /* overflow: hidden; */
+
+}
+
+.image img {
+    width: 320px;
+    height: 300px;
+    /* height: auto; */
+    border-radius: 5px;
+}
+
+.closing{
+    margin-top: 20px;
+    color: #255A65;
+    font-size: 1rem;
+    
+}
+.closing h4{
+    font-weight: 700;
+}
+/* maps */
+iframe{
+    width: 400px;
+    height: 300px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.maps{
+    margin-top: 10px;
+}
+.maps{
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color:#cf711f;
+}
+/* end maps */
+/* footer */
+.footer{
+    margin-top: 90px;
+    background-color: #255A65;
+    width: 100vw;
+    height: 140px;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer p{
+    margin-top:20px;
+    font-size: 15px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    color: orange;
+}
+
+.social-icons{
+    margin-top: 19px;
+    font-size: 30px;
+    
+}
+
+.social-icons i{
+    margin-right: 20px;
+    margin-left: 20px;
+    color: #cf711f;
+}
+/* end footer */

@@ -1,0 +1,572 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #D8D5D5;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    padding: 0px;
+    background-color: transparent;   
+    background-image:url(../img/Booking-home/Header-booking.jpg);
+    background-size: 100% auto;
+    background-position: right center;
+    background-repeat: no-repeat;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+}
+.header::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 10%; /* Tinggi garis bawah yang akan diubah opasitasnya */
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(237, 237, 237)); /* Gradient transparan ke putih */
+}
+.button-back{
+    padding: 15px;
+}
+
+.button-back button{
+    width: 120px;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #255A65;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+}
+.button-back button:hover{
+    opacity: 50%;
+}
+.label-head{
+width: 440px;
+padding: 10px;
+border-radius: 5px 0 0 5px ;
+background-color: #255A65;
+color: #ffffff;
+font-family: 'Poppins', sans-serif;
+cursor: pointer;
+border: none;
+margin-top: 200px;
+opacity: 60%;
+margin-right: 0; /* Elemen akan mepet ke kanan sepenuhnya */
+/* font-size: 40px; */
+}
+
+.label-head h3{
+    font-size: 40px;
+    color: #ffffff;
+}
+/* end */
+
+
+/* Strat Search */
+label {
+    display: block;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 670px; /* Menentukan lebar elemen */
+    padding: 15px; /* Menentukan padding */
+    font-size: 16px; /* Menentukan ukuran font */
+    border-radius: 5px;
+    border: 3px solid #fff;
+    /* margin-bottom: 80px; */
+}
+/* .button-search{
+    margin-right: 20px;
+    padding: 15px;
+}
+button {
+    width: 100px;
+    padding: 15px;
+    border-radius: 4px;
+    background-color: #255A65;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    right: 25px;
+}
+ button:hover{
+    background-color: #cf711f;
+} */
+
+.button-search{
+    width: 100px;
+    padding: 15px;
+    border-radius: 4px;
+    background-color: #255A65;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    right: 25px;
+}
+
+.button-search:hover{
+    background-color: #cf711f;
+}
+.container-search{
+    max-width: 120rem;
+    padding: 0 3.2rem;
+    margin: 0 90px;
+    margin-top: 70px;
+}
+/* end Search */
+
+/* Strat Card  */
+.container{
+    max-width: 120rem;
+    padding: 0 3.2rem;
+    margin: 0 90px;
+    margin-top: 100px;
+}
+.grid{
+    display: grid;
+    gap: 9.6rem;
+}
+
+.grid--2-cols{
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols{
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/* .grid--4-cols{
+    grid-template-columns: repeat(4, 1fr);
+} */
+
+.heading-secondary{
+    font-size: 2.5rem;
+    /* line-height: normal; */
+    margin-bottom: 3rem;
+    color: #182F52;
+}
+.heading-secondary span{
+    color: #cf711f;
+}
+.subheading{
+    display: block;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #cf711f;
+    margin-bottom: 0.3rem;
+    
+}
+
+
+.section-destination {
+    padding: 9.6rem 0;
+    /* margin-bottom: 30px; */
+  }
+  
+  .destination {
+    border-radius: 11px;
+    overflow: hidden;
+    transition: all 0.4s;
+    height: auto;
+    border: none;
+    
+  }
+  
+  .destination:hover {
+    transform: translateY(-1.2rem);
+    box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
+  }
+  
+  .desti-content {
+    padding: 1.2rem ;
+    height:240px;
+    background: #F3F3F3;
+    margin-top: -20px;
+    position: relative;
+  }
+  
+  .desti-tags {
+    margin-bottom: 0.2rem;
+    display: flex;
+    gap: 0.4rem;
+    
+  }
+
+  .desti-attribute strong{
+    margin-right: 5px;
+  }
+  .desti-tags span{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color:#514A4A;
+  }
+
+  .desti-title {
+    font-size: 1rem;
+    color: #000000;
+    font-weight: 400;
+    margin-bottom: 3.2rem;
+  }
+  .desti-title span{
+    color: #cf711f;
+    font-weight: 600;
+  }
+  .desti-attributes {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2.2rem;
+    
+  }
+  
+  .desti-attribute {
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    margin-top: -20px;
+    
+  }
+   
+  .desti-img {
+    width: 100%;
+    
+  }
+
+  .button-card{
+    width: 90px; /* Menentukan lebar elemen */
+    padding: 7px; /* Menentukan padding */
+    border-radius: 5px 0 5px;
+    background-color: #255A65;
+    color: #ffffff;
+    font-family:'Poppins', sans-serif ;
+    cursor: pointer;
+    border: none;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+}
+
+.button-card:hover{
+  background-color: #cf711f;
+}
+
+.button-card a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.desti-attribute i{
+    font-size: 25px;
+    color: #cf711f;
+}
+
+.desti-content i{
+    font-size: 25px;
+    color: #cf711f;
+}
+
+.destination-button {
+    padding: 10px ;
+    margin-top: 20px;
+    background-color: #255A65;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    right: 20px;
+    position: absolute;
+    cursor: pointer;
+}
+.destination-button-1 {
+    padding: 10px ;
+    margin-top: 20px;
+    background-color: #255A65;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    /* right: 20px; */
+    position: absolute;
+    cursor: pointer;
+}
+
+.destination-button:hover{
+    background-color: #cf711f;
+    
+}
+.destination-button-1:hover{
+    background-color: #cf711f;
+}
+.about button:hover{
+    cursor: pointer;
+    opacity: 50%;
+}
+
+.destination-button-1 a {
+    text-decoration: none;
+    color: white;
+}
+/* end card */
+
+/* footer */
+.footer{
+    margin-top: 90px;
+    background-color: #255A65;
+    width: 100vw;
+    height: 140px;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer p{
+    margin-top:20px;
+    font-size: 15px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    color: orange;
+}
+
+.social-icons{
+    margin-top: 19px;
+    font-size: 30px;
+    
+}
+
+.social-icons i{
+    margin-right: 20px;
+    margin-left: 20px;
+    color: #cf711f;
+}
+/* end footer */
+
+/* ------------------------------------------------------Style Css Nature Bali------------------------------------------- */
+.header-nature{
+    padding: 0px;
+    background-color: transparent;   
+    background-image:url(../img/Destination/Monkey.jpg);
+    background-size: 100% auto;
+    background-position: right center;
+    background-repeat: no-repeat;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+}
+.header-nature::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 10%; /* Tinggi garis bawah yang akan diubah opasitasnya */
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(255, 255, 255)); /* Gradient transparan ke putih */
+
+}
+
+
+.container-nature{
+     /* max-width: 120rem; */
+    padding: 0 4.2rem;
+    margin-top: 120px;
+    /* margin: 0 90px;  */
+}
+
+.heading-nature{
+    font-size: 2.5rem;
+    /* line-height: normal; */
+    margin-bottom: 3rem;
+    color: #182F52;
+}
+.heading-nature span{
+    color: #cf711f;
+}
+.subheading-nature{
+    display: block;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #cf711f;
+    margin-bottom: 0.3rem;
+    
+}
+
+/* Strat Gallry */
+.Gallray-destination {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 49px;
+    padding: 0 1rem;
+ 
+}
+
+.Gallry-img {
+    position: relative; 
+    width: 30%;
+    margin-bottom: 40px;
+    margin-right: 20px;
+    padding: 0;
+    display: inline-block;
+    /*  */
+}
+
+.Gallry-img img {
+    display: block;
+    margin: 0;
+    width: 80%;
+    height: 100%;
+    border-radius: 3%;
+    margin-left: 20px;
+}
+
+
+.name-desti {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 130px;
+    padding: 5px;
+    border-radius: 5px 0 0 5px ;
+    background-color: #255A65;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 80px;
+    left: 220px;
+    opacity: 80%;
+    text-align: center;
+
+}
+
+.button-back a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.button-desti {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 90px;
+    padding: 7px;
+    border-radius: 5px 0 5px;
+    background-color: #255A65;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    border: none;
+    left: 257px;
+   margin-top: 120px;
+
+}
+
+.button-desti:hover{
+    background-color: #cf711f;
+}
+
+/* ---------------------------------------------------end Style Css Nature Bali----------------------------------------*/
+
+
+/* ---------------------------------------------------Strat Style Css Culture Bali------------------------------------- */
+
+
+.header-Culture{
+    padding: 0px;
+    background-color: transparent;   
+    background-image:url(../img/Destination/about.jpg);
+    background-size: 100% auto;
+    background-position: right center;
+    background-repeat: no-repeat;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+}
+.header-Culture::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 10%; /* Tinggi garis bawah yang akan diubah opasitasnya */
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(255, 255, 255)); /* Gradient transparan ke putih */
+
+}
+
+.name-desti-Tirta-empul {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 160px;
+    padding: 5px;
+    border-radius: 5px 0 0 5px ;
+    background-color: #255A65;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 80px;
+    left: 190px;
+    opacity: 80%;
+    text-align: center;
+
+}
+
+
+/* ---------------------------------------------------End Style Css Culture Bali------------------------------------- */
+
+
+
+.header-beach{
+    padding: 0px;
+    background-color: transparent;   
+    background-image:url(../img/Destination/Pantai.jpg);
+    background-size: 100% auto;
+    background-position: right center;
+    background-repeat: no-repeat;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+}
+.header-Culture::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 10%; /* Tinggi garis bawah yang akan diubah opasitasnya */
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(255, 255, 255)); /* Gradient transparan ke putih */
+
+}
+
+.name-desti-Tirta-empul {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 160px;
+    padding: 5px;
+    border-radius: 5px 0 0 5px ;
+    background-color: #255A65;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 80px;
+    left: 190px;
+    opacity: 80%;
+    text-align: center;
+
+}

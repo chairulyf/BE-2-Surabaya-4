@@ -1,0 +1,646 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #D8D5D5;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+/* Navbar */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    background-color: transparent;   
+    background-image: url(../img/ye.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 550px;
+    position: relative;
+}
+
+.logo{
+    height: 34rem;
+    color: #6B6F76;
+}
+
+.logo span{
+    color: #FF5C00;
+}
+
+.main-nav-link
+{
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 500;
+    height: 33rem;
+    font-size: 1rem;
+    transition: all 0.3s;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active{
+    color: #e67e22;
+}
+
+.nav-cta:link,
+.nav-cta:visited{
+    color: #fff;
+    
+}
+
+.nav-cta:link,
+.nav-cta:visited:hover{
+    color: #e67e22;
+}
+
+.main-nav-list{
+    list-style: none;
+    display: flex;
+    gap: 3.2rem;
+    align-items: center;
+
+}
+/* end nav */
+
+/* info panel */
+.section-info-panel{
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    margin-top: -50px;
+    position: relative;
+
+}
+.info-panel{
+    box-shadow: 0 3px 20px ;
+    border-radius: 13px;
+    background-color: #82ADB2;
+    padding: 20px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    
+}
+
+.destination input[type="text"],
+.when-destination input[type="date"] {
+    width: 185px; /* Menentukan lebar elemen */
+    padding: 5px; /* Menentukan padding */
+    font-size: 16px; /* Menentukan ukuran font */
+    border-radius: 5px;
+    border: 3px solid #fff;
+}
+.type-destination select{
+    width: 185px; /* Menentukan lebar elemen */
+    height: 40px;
+    padding: 5px; /* Menentukan padding */
+    font-size: 16px; /* Menentukan ukuran font */
+    border-radius: 5px;
+    border: 3px solid #fff;
+}
+.ket-panel{
+    font-weight:600;
+    color: #523C3C;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.search-button{
+    width: 100px; /* Menentukan lebar elemen */
+    padding: 7px; /* Menentukan padding */
+    font-size: 16px; /* Menentukan ukuran font */
+    border-radius: 5px;
+    background-color: #255A65;
+    color: #ffffff;
+    font-family:'Poppins', sans-serif ;
+    cursor: pointer;
+    margin-top: 1px;
+    border: none;
+}
+.option-type{
+    font-family:'Poppins', sans-serif ;
+    font-weight: 500;
+}
+/* end */
+
+/* Strat About */
+.About-traveling-kuy{
+    margin-top: 250px;
+}
+  .about{
+    margin: 169px 270px ;
+    opacity: 0.9;
+    width: 600px;
+    height: 390px;
+    padding: 10px 30px 0;
+    box-sizing: border-box;
+    border-radius: 20px;
+
+    
+}
+
+.Title{
+    font-family:'Poppins', sans-serif;
+    color: #182F52;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.Title span{
+    color: orange;
+}
+
+.content h1{
+    font-family:'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+.about p{
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+    color:#3E3D44;
+}
+
+.about button{
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color:#255A65;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.about button:hover{
+    cursor: pointer;
+}
+
+.image-section {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.image img {
+    width: 320px;
+    height: 300px;
+    border-radius: 10px;
+    justify-content: flex-start;
+    margin: 20px 300px 0; 
+    transform: translateY(-593px);
+}
+
+/* end */
+
+/* strat service */
+.service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: -450px;
+    margin-bottom: 210px;
+}
+
+.title {
+    margin-bottom: 40px;
+    font-size: 15px;
+    color: #182F52;
+    text-align: center;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    margin-left: 29px;
+}
+
+.feature  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2rem;
+    margin: 0 50px; 
+}
+
+
+.container-icon {
+    display: flex;
+    justify-content: center; /* Posisikan ikon di tengah */
+    align-items: center; /* Posisikan ikon di tengah */
+    background-color: #182f52;
+    padding: 10px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    font-size: 39px; /* Sesuaikan ukuran ikon */
+    color: #FF5C00; /* Warna ikon */
+    border: 3px solid #fff;
+    width: 50px;
+    height: 49px;
+}
+
+
+.feature-title{
+    font-family: 'Poppins', sans-serif;
+    color: #182f52;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 600;
+}
+
+
+/* end service */
+
+/*  Strat Popular destination  */
+.container{
+    max-width: 120rem;
+    padding: 0 3.2rem;
+    margin: 0 90px;
+}
+.grid{
+    display: grid;
+    gap: 9.6rem;
+}
+
+.grid--2-cols{
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols{
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/* .grid--4-cols{
+    grid-template-columns: repeat(4, 1fr);
+} */
+
+.heading-secondary{
+    font-size: 2.4rem;
+    /* line-height: normal; */
+    margin-bottom: 5.6rem;
+    color: #182F52;
+}
+
+.subheading{
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #cf711f;
+    text-transform: uppercase;
+    margin-bottom: 1.6rem;
+}
+
+
+.section-destination {
+    padding: 9.6rem 0;
+  }
+  
+  .destination {
+    border-radius: 11px;
+    overflow: hidden;
+    transition: all 0.4s;
+    height: auto;
+    border: none;
+    
+  }
+  
+  .destination:hover {
+    transform: translateY(-1.2rem);
+    box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
+  }
+  
+  .desti-content {
+    padding: 1.2rem ;
+    height:230px;
+    background: #F3F3F3;
+    margin-top: -20px;
+    position: relative;
+  }
+  
+  .desti-tags {
+    margin-bottom: 0.2rem;
+    display: flex;
+    gap: 0.4rem;
+    
+  }
+  .desti-tags span{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color:#514A4A;
+  }
+
+  .desti-title {
+    font-size: 1rem;
+    color: #000000;
+    font-weight: 400;
+    margin-bottom: 3.2rem;
+  }
+  
+  .desti-attributes {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2.2rem;
+    
+  }
+  
+  .desti-attribute {
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    margin-top: -20px;
+    
+  }
+   
+  .desti-img {
+    width: 100%;
+    
+  }
+  .button-card{
+    width: 100px; /* Menentukan lebar elemen */
+    padding: 7px; /* Menentukan padding */
+    border-radius: 5px 0 5px;
+    background-color: #255A65;
+    color: #ffffff;
+    font-family:'Poppins', sans-serif ;
+    cursor: pointer;
+    border: none;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+}
+
+.button-card:hover{
+  background-color: #cf711f;
+}
+
+.button-card a{
+  text-decoration: none;
+  color: #ffffff;
+}
+.desti-attribute i{
+    font-size: 25px;
+    color: #cf711f;
+}
+
+
+
+/* end Popular destination  */
+
+
+/* Strat Gallry */
+.Gallray-destination {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 90px;
+    margin-left: 49px;
+ 
+}
+
+.Gallry-img {
+    position: relative; 
+    width: 30%;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    padding: 0;
+    display: inline-block;
+    /*  */
+}
+
+.Gallry-img img {
+    display: block;
+    margin: 0;
+    width: 80%;
+    height: 90%;
+    border-radius: 5%;
+    margin-left: 20px;
+}
+
+.button-desti {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 90px;
+    padding: 7px;
+    border-radius: 5px 0 5px;
+    background-color: #255A65;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 30px;
+    left: 220px;
+    
+
+}
+
+.name-desti {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 130px;
+    padding: 5px;
+    border-radius: 5px 0 0 5px ;
+    background-color: #255A65;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 90px;
+    left: 184px;
+    opacity: 70%;
+    text-align: center;
+
+}
+
+/* end Gallry */
+
+/* strat testimonial */
+
+.section-testimonials {
+    display: grid;
+    grid-template-columns: 55fr 45fr;
+    align-items: center;
+  }
+  
+  .testimonials-container {
+    padding: 8rem;
+  }
+  
+  .testimonials {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 4.8rem;
+    column-gap: 8rem;
+  }
+  
+  .testimonial-img {
+    width: 6.4rem;
+    border-radius: 50%;
+    margin-bottom: 1.2rem;
+     border: solid 2px #fff;
+  }
+  
+  .testimonial-text {
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 0.5rem;
+  }
+  
+  .testimonial-name {
+    font-size: 1rem;
+    color: #cf711f;
+  }
+  
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 0.8fr);
+    gap: 1.6rem;
+    padding: 1.6rem;
+    border-radius: 10px;
+    margin-top: 190px;
+   
+  }
+
+.subheading-testi{
+    display: block;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #cf711f;
+    text-transform: uppercase;
+    margin-bottom: 1.6rem;
+}
+  .heading-secondary-testi{
+    font-size: 3rem;
+    margin-bottom: 4.6rem;
+    color: #182F52;
+}
+.heading-secondary-testi span{
+    color: #cf711f;
+}
+
+  
+  .gallery-item {
+    overflow: hidden;
+  }
+  
+  .gallery-item img {
+    display: block;
+    width: 80%;
+    transition: all 0.4s;
+    border-radius: 10px;
+    
+  }
+  
+  .gallery-item img:hover {
+    transform: scale(1.1);
+    border-radius: 10px;
+  }
+
+/* end testimonial */
+
+
+/* Start feadback */
+.section-cta {
+  padding: 3.8rem 0 12.8rem;
+  margin-left: 50px;
+  
+}
+
+.cta {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  background-color:  #82ADB2;
+  overflow: hidden;
+  border-radius: 20px;
+  width: 100%;
+  height: 0%;
+}
+
+
+
+
+.cta-text-box {
+  padding: 3.8rem ;
+  color:  #182f52;
+}
+
+.cta .heading-secondary {
+  margin-bottom: 3.2rem;
+}
+
+.cta-text {
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-bottom: 4.8rem;
+}
+
+.cta-img-box {
+  background-image: url(../img/testimoni/human\ bali.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.cta-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3.2rem;
+  row-gap: 2.4rem;
+}
+
+.cta-form label {
+  display: block;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+}
+
+.cta-form input,
+.cta-form select {
+  width: 90%;
+  padding: 1rem;
+  font-size: 1rem;
+  font-family: inherit;
+  color: inherit;
+  border: none;
+  background-color: #fdf2e9;
+  border-radius: 9px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+.btn--form {
+  background-color: #255A65;
+  color: #fdf2e9;
+  align-self: end;
+  padding: 1.2rem;
+  border-radius: 10px;
+  border:none;
+}
+
+.btn--form:hover {
+  background-color: #fff;
+  color: #555;
+}
+
+.cta-form input::placeholder {
+  color: #aaa;
+}
+
+.cta *:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5);
+}
+/* end feadback */

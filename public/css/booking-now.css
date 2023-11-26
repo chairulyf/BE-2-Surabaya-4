@@ -1,0 +1,406 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #D8D5D5;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    padding: 0px; 
+    background-color: transparent;   
+    background-image:url(../img/Booking-Hotel/Hotel-header.jpg);
+    background-size: 100% auto;
+    background-position: right center;
+    background-repeat: no-repeat;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+}
+
+.button-back{
+    padding: 15px;
+}
+
+.button-back button{
+    width: 120px;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #255A65;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+}
+.button-back button:hover{
+    opacity: 50%;
+}
+
+.button-back a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.label-head{
+width: 440px;
+padding: 10px;
+border-radius: 5px 0 0 5px ;
+background-color: #255A65;
+color: #ffffff;
+font-family: 'Poppins', sans-serif;
+cursor: pointer;
+border: none;
+margin-top: 200px;
+opacity: 60%;
+margin-right: 0; /* Elemen akan mepet ke kanan sepenuhnya */
+/* font-size: 40px; */
+}
+/* start nav */
+.main-nav-link
+{
+    display: inline-block;
+    text-decoration: none;
+    color: #1D232E;
+    font-weight: 700;
+    height: 33rem;
+    font-size: 1rem;
+    transition: all 0.3s;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 40px;
+    margin-left: 50px;
+    
+}
+
+.main-nav-link:hover,
+.main-nav-link:active{
+    color: #e67e22;
+}
+
+.nav-cta:link,
+.nav-cta:visited{
+    color: #fff;
+    
+}
+
+.nav-cta:link,
+.nav-cta:visited:hover{
+    color: #e67e22;
+}
+
+.main-nav-list{
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+
+}
+
+/* end nav */
+
+/* start */
+.container{
+    display: flex;
+    align-items: flex-start;
+    margin-left: 70px;
+    margin-right: 70px;
+    border: #255A65 solid 1px;
+    border-radius: 5px;
+    padding: 20px;
+    position: relative;
+    margin-top: -470px;
+}
+.about-detail{
+    margin-top: -30px;
+}
+.about {
+    flex: 1; 
+    padding: 20px; 
+    margin-top: 30px; 
+}
+
+.sub-title {
+    margin-bottom: 10px; 
+    font-size: 0.9rem;
+    color: #cf711f;
+    margin-top: 10px;
+    margin-left: -4px;
+}
+
+.Title-about{
+    font-size: 1.5rem;
+    margin-top: -20px;
+    color: #255A65;
+    margin-left: -6px;
+}
+
+.image{
+    flex: 0 0 320px; 
+}
+
+.image img {
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.rating i{
+    font-size: 20px;
+    color: #e67e22;
+}
+.rating p{
+    font-size: 0.7rem;
+    font-weight: 600;
+    margin-left: 5px;
+}
+.rating span{
+    font-weight: 600;
+}
+.service{
+    margin-top: 45px;
+}
+.service ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.service li{
+    list-style: none;
+    font-size: 0.8rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.service li:hover{
+    color: #e67e22;
+}
+.form-personal{
+    margin-left: -300px;
+    margin-top: 70px;
+}
+.Leading{
+    margin-bottom: 20px;
+    
+}
+.form-personal p{
+    font-size: 1rem;
+    font-weight: 700;
+}
+.cta-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3.2rem;
+    row-gap: 2.4rem;
+  }
+  
+  .cta-form label {
+    display: block;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 1.2rem;
+  }
+  
+  .cta-form input,
+  .cta-form select {
+    width: 90%;
+    padding: 1rem;
+    font-size: 1rem;
+    font-family: inherit;
+    color: inherit;
+    border: none;
+    background-color: #ffffff;
+    border-radius: 9px;
+    border: none;
+  }
+  
+  .cta-form input::placeholder {
+    color: #aaa;
+  }
+  
+  .cta *:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5);
+  }
+
+  /* Option BookinG Room */
+  .booking-room{
+    margin-top: 50px;
+    
+  }
+
+  .booking-room li{
+    list-style: none;
+  }
+  
+  .booking-room span{
+    margin-left: 33px;
+    font-size: 0.8rem;
+    
+  }
+
+  input{
+    display: inline-block;
+    width: 20px; 
+    height: 20px; 
+    border: 1px solid rgb(39, 39, 190);
+    margin-right: 8px; 
+    vertical-align: middle;
+    background-color: #fff;
+    /* transform: scale(0.8); */
+}
+.booking-room li label {
+    margin-bottom: 5px; 
+    color: #255A65; 
+    font-weight: 600;
+}
+
+.booking-room li span {
+    display: block;
+}
+.date-book {
+    margin-left: -120px;
+}
+.paket{
+    display: flex;
+    justify-content: center;
+    margin-left: -178px;
+   
+}
+
+.paket-date{
+    margin-top: 20px;
+    width: 30%;
+    padding: 0.7rem;
+    border: #255A65 solid 1px;
+    text-align: center;
+    border-radius: 10px;
+     margin-right: 60px;
+}
+.date-book p{
+    margin-left: -145px;
+}
+
+.transpot{
+    margin-top: 90px;
+    margin-left: -300px;
+}
+
+.booking-trans p{
+    margin-top: 30px;
+    margin-left: 34px;
+}
+
+  .booking-trans li{
+    list-style: none;
+  }
+  
+  .booking-trans span{
+    margin-left: 33px;
+    font-size: 0.8rem;
+    
+  }
+
+  .booking-trans li label {
+    margin-bottom: 5px; /* Jarak ke bawah */ 
+}
+
+.booking-trans li span {
+    display: block;
+}
+
+.card {
+    margin-top: 20px;
+    margin-left: 30px; /* Sesuaikan margin kiri sesuai kebutuhan */
+    margin-right: 30px; /* Sesuaikan margin kanan sesuai kebutuhan */
+    width: 10%;
+    padding: 2rem;
+    border: #255A65 solid 1px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.card-vehicle {
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.card {
+    position: relative;
+}
+
+input[type="radio"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 10px; /* Adjust the margin as needed */
+}
+
+.card i {
+    margin-right: 5px; /* Sesuaikan margin kanan ikon sesuai kebutuhan */
+    font-size: 40px;
+    color: #cf711f;
+}
+
+.button-booking{
+    margin-top: 40px;
+    /* padding: 1px; */
+    text-align: center;
+    margin-left: -265px;
+}
+
+.button-booking button{
+    width: 160px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #255A65;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    
+}
+.button-booking button:hover{
+    background-color: #cf711f;
+}
+
+.button-booking a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+  /*end Option BookinG Room */
+
+
+/* footer */
+.footer{
+    margin-top: 90px;
+    background-color: #255A65;
+    width: 100vw;
+    height: 140px;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer p{
+    margin-top:20px;
+    font-size: 15px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    color: orange;
+}
+
+.social-icons{
+    margin-top: 19px;
+    font-size: 30px;
+    
+}
+
+.social-icons i{
+    margin-right: 20px;
+    margin-left: 20px;
+    color: #cf711f;
+}
+/* end footer */

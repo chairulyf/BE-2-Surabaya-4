@@ -1,0 +1,226 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #D8D5D5;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+
+
+.header{
+    padding: 0px; 
+    background-color: transparent;   
+    background-image:url(../img/Profil/Background.jpg);
+    background-size: 100% auto;
+    background-position: right center;
+    background-repeat: no-repeat;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+}
+
+.button-back{
+    padding: 15px;
+    text-align: right;
+}
+
+.button-back button{
+    width: 120px;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #255A65;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+}
+.button-back button:hover{
+    opacity: 50%;
+} 
+
+.button-back a{
+    text-decoration: none;
+    color: #ffffff;
+}
+   
+/* start nav */
+
+
+.container{
+    
+    width: 80%; /* Sesuaikan lebar kontainer sesuai kebutuhan */
+    height: 100%;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 70px;
+    /* text-align: center; */
+    margin: 5px auto;
+    padding: 5px ;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-areas:
+                        "aside main";
+    grid-template-columns:  0.8fr 1.8fr;
+    grid-template-rows:auto;
+    grid-gap: 30px; /* Tambahkan jarak sebesar 20px antara aside dan main */
+    
+}
+
+.judlul-profil{
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 700;
+    opacity: 50%;
+}
+
+.image {
+    text-align: center;
+}
+.image img{
+    border-radius: 50%;
+}
+
+.name-profil{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.name-profil h4 {
+    margin-bottom: 10px;
+}
+hr{
+    margin-top: 10px;
+}
+
+ aside{
+    z-index: 1;
+    margin-top: -120px;
+    border-radius: 5px;
+    grid-area: aside;
+    background-color: rgb(255, 255, 255);
+    padding:60px 0;
+    height: 340px;
+}
+
+
+main{
+    z-index: 1;
+    border-radius: 10px;
+    margin-top: -120px;
+    grid-area: main;
+    background-color: rgb(255, 255, 255);
+    height: 800px;
+}
+.form-personal{
+    margin-left: -200px;
+    margin-top: 70px;
+}
+.Leading{
+    margin-bottom: 20px;
+    
+}
+.form-personal p{
+    font-size: 1rem;
+    font-weight: 700;
+}
+.cta-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 280px;
+    align-items: center;
+    column-gap: 1rem;
+    row-gap: 2rem;
+  }
+  
+  .cta-form label {
+    display: block;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 1.2rem;
+  }
+  
+  .cta-form input,
+  .cta-form select {
+    width: 240px;
+    padding: 0.5rem;
+    font-size: 1rem;
+    font-family: inherit;
+    color: inherit;
+    border: none;
+    background-color: #d3d1d1;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .cta-form input::placeholder {
+    color: #aaa;
+  }
+  
+  .cta *:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.8rem rgba(255, 255, 255, 0.5);
+  }
+
+  .button-profil{
+    margin-top: 20px;
+    /* padding: 1px; */
+    text-align: center;
+    margin-left: -90px;
+}
+
+.button-profil button{
+    width: 160px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #255A65;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    
+}
+.button-profil button:hover{
+    background-color: #cf711f;
+}
+
+.button-profil a{
+    text-decoration: none;
+    color: #ffffff;
+}
+/* footer */
+.footer{
+    margin-top: 90px;
+    background-color: #255A65;
+    width: 100vw;
+    height: 140px;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer p{
+    margin-top:20px;
+    font-size: 15px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    color: orange;
+}
+
+.social-icons{
+    margin-top: 19px;
+    font-size: 30px;
+    
+}
+
+.social-icons i{
+    margin-right: 20px;
+    margin-left: 20px;
+    color: #cf711f;
+}
+/* end footer */

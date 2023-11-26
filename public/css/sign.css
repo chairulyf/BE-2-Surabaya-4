@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #D8D5D5;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    max-width: 830px;
+    background: #ffffff;
+    border-radius: 15px;
+    height: 550px;
+}
+
+.login{
+    width: 400px;
+}
+
+form{
+    width: 250px;
+    margin: 60px auto;
+}
+
+h1{
+    margin: 20PX;
+    text-align: center;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+hr{
+    border-top: 2px solid orange;
+}
+p{
+    text-align: center;
+    margin: 10px;
+    font-size: 1rem;
+}
+
+h2{
+    text-align: center;
+    color: #182F52;
+}
+
+.sub-head p{
+    font-weight: 600px;
+}
+
+.img-right img{
+    width: 400px;
+    height: 550px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius:10px ;
+    margin-left:30px;
+}
+form label{
+    display: flex;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 5px;
+}
+
+input{
+    width: 100%;
+    margin: 2px;
+    border: 2px solid rgb(73, 73, 127);
+    outline: none;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+button{
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #0057FF;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    color: #fff;
+    margin-top: 15px;
+}
+.action-more a{
+    text-decoration: none;
+    font-weight: 600;
+}
+
+  
